@@ -1,7 +1,7 @@
 package decoupledinterface
 
 class HelloWorldMessageProvider extends MessageProvider {
-  override def getMessage: String =
-    "Hello World!"
-
+  override def getMessage: String = {
+    return "Hello World!"
+  }
 }
